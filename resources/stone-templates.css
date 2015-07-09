@@ -1,0 +1,17 @@
+
+
+.flat-button {
+    cursor: pointer;
+    margin-top: 1em;
+    padding: 1em 2em 1em 2em;
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
+    box-shadow: 0 1px 1px #aaaaaa;
+}
+.flat-button:hover {
+    box-shadow: 0 0 0 #ffffff;
+}
+.hidden {
+    display: none;
+}

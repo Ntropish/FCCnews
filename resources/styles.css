@@ -1,0 +1,99 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+[class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+}
+* {
+    font-family: 'Oswald', serif;
+}
+#title {
+    font-size: 3.5em;
+    text-align: center;
+    font-family: 'Oswald', serif;
+    font-weight: 400;
+}
+#subtitle {
+    text-align: center;
+    font-weight: 300;
+    color: #999999;
+}
+#stories {
+    margin: auto;
+}
+
+@media screen and (min-width:1000px) {
+    #stories {
+        width: 90%;
+        column-count: 4;
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+    }
+}
+@media screen and (min-width:600px) and (max-width:999px) {
+    #stories {
+        width: 90%;
+        column-count: 3;
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+    }
+}
+@media screen and (min-width:400px) and (max-width:599px) {
+    #stories {
+        width: 95%;
+        column-count: 2;
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+    }
+}
+.story {
+    cursor: pointer;
+    width: 100%;
+    display: inline-block;
+    height: auto;
+}
+.story:hover {
+    opacity: .9;
+}
+.story-inner {
+    position:relative;
+}
+.story-thumbnail {
+    box-shadow: 0 1px 1px #eeeeee;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+.text-overlay {
+    font-weight: 400;
+    font-size: .9em;
+    color: white;
+    text-shadow: 0 0 8px #000;
+    position: absolute;
+    bottom: 0;
+    left: 1em;
+}
+.comment-box {
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    background-color: #eeeeee;
+    box-shadow: 0 1px 1px #888;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    opacity: 0.4;
+    color: black;
+}
+.comment-box:hover {
+    opacity: 0.6;
+    box-shadow: 0 0px 0px #888;
+}
+i {
+    z-index: 3;
+}
+
