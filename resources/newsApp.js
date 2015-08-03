@@ -26,7 +26,7 @@ $(document).ready(function() {
         var image = data.image;
         var headline = data.headline;
         if (!image) {//grab a default image link if none
-            image = 'http://i.imgur.com/E6wb5O8.png';
+            image = 'resources/placeholder.png';
         }
         //div.append('<img class="story-thumbnail" src="'+image+'">');
         //div.append('<div class="dark-overlay"></div>');

@@ -91,7 +91,7 @@
 }
 .comment-box:hover {
     opacity: 0.6;
-    box-shadow: 0 0px 0px #888;
+    box-shadow: 0 0 0 #888;
 }
 i {
     z-index: 3;
